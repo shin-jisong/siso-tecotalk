@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시소의 테코톡</title>
+    <!-- Google Fonts 동글한 글꼴 사용 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: normal; /* 기본 글자 간격 */
+        }
+
+        /* 시소, 의, 테코톡 각각의 색상 지정 */
+        .sisoo {
+            color: #000000; /* 검정색 */
+        }
+
+        .of {
+            color: #888888; /* 회색 */
+        }
+
+        .tech-talk {
+            color: #99cc99; /* 어두운 파스텔 연두색 */
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #555;
+            margin-top: 0;
+        }
+
+        .highlight {
+            color: #000; /* 검정색 */
+            font-weight: bold; /* 볼드체 */
+        }
+
+        /* 이모지 스타일 */
+        h1::before {
+            content: "🎉 "; /* 타이틀 앞에 이모지 추가 */
+        }
+
+        p::before {
+            content: "🌟 "; /* 문장 앞에 이모지 추가 */
+        }
+
+        p::after {
+            content: " 🚀"; /* 문장 뒤에 이모지 추가 */
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>
+        <span class="sisoo">시소 </span><span class="tech-talk">테코톡</span>
+    </h1>
+    <p>포트포워딩 너 <span class="highlight">성공했구나?</span></p>
+</div>
+
+</body>
+</html>
